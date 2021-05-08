@@ -1,0 +1,15 @@
+header {
+    background-color: darkslategrey;
+    color: darkturquoise;
+}
+
+header nav {
+    padding-top: ;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    flex: auto;
+    flex-direction: row;
+}
