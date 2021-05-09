@@ -1,15 +1,34 @@
 header {
     background-color: darkslategrey;
     color: darkturquoise;
-}
-
-header nav {
-    padding-top: ;
+    display: flex;
+    justify-content: space-between;
 }
 
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;
-    flex: auto;
-    flex-direction: row;
+}
+
+nav {
+    justify-content: flex-end;
+    margin-right: 25px;
+    margin-top: 60Spx;
+}
+
+.hero {
+    height: 300px;
+    width: 100%;
+    background-image: url("../assets/landscape.webp");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+h2 {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    padding: 0px;
+    margin: 0px;
 }
