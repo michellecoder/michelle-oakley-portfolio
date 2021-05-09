@@ -39,12 +39,27 @@ h2 {
     background-color: aqua;
 }
 
-.about-me {
-    /* display: flex;
-    justify-content: flex-end;
-    flex-direction: column; */
-    position: static;
-    background-color: #fff;
-    float: left;
-    flex-wrap: wrap;
+
+/* --------------------------*/
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px 60px 25px 100px;
+}
+
+
+/* --------------------------*/
+
+h3 {
+    font-size: 2rem;
+    border-right: solid rgb(58, 37, 194);
+    margin-right: 20px;
 }
