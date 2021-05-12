@@ -95,16 +95,29 @@
     }
     
     .portfolio-item {
-        border: 2px solid blueviolet;
+        border: 2px solid rgb(48, 195, 197);
         min-height: 100px;
         flex-grow: 0;
         flex-shrink: 0;
         flex-basis: 49%;
         margin-bottom: 10px;
         background-image: url(./assets/solitude.jpg);
+        padding-top: 40px;
+        background-color: rgb(48, 195, 197);
     }
     
     .portfolio-item:first-child {
         flex-basis: 100%;
         min-height: 300px;
+        padding-top: 25%;
+    }
+    
+    .portfolio-item a {
+        color: rgb(48, 195, 197);
+        font-size: 18px;
+        padding-top: 40px;
+    }
+    
+    .portfolio-item:hover {
+        opacity: 70%;
     }
