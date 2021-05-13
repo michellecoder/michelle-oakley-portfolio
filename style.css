@@ -132,3 +132,9 @@
     .portfolio-item:hover {
         opacity: 70%;
     }
+    
+    nav li {
+        display: inline-block;
+        color: rgb(28, 28, 119);
+        margin-right: 48px;
+    }
