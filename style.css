@@ -72,6 +72,17 @@
     }
     /* --------------------------*/
     
+    img {
+        height: 300px;
+        width: 300px;
+        border: 2px solid rgb(48, 195, 197);
+    }
+    
+    .left {
+        display: block;
+        margin-right: 50px;
+    }
+    
     h3 {
         font-size: 2rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -101,7 +112,7 @@
         flex-shrink: 0;
         flex-basis: 49%;
         margin-bottom: 10px;
-        background-image: url(./assets/solitude.jpg);
+        background-image: url(./assets/rose-sky.jpg);
         padding-top: 40px;
         background-color: rgb(48, 195, 197);
     }
