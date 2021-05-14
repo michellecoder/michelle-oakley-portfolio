@@ -21,3 +21,16 @@ I learned some very useful things for my future development career such as;
    *  Collaboration is key to success. 
 
    *  Tutors are a gift from above. 
+
+
+## Credits
+
+William Crownover and William Kuo: Thank you for helping me claw out solutions.
+
+
+ https://michellecoder.github.io/michelle-oakley-portfolio/
+
+ ![alt text](Protfolio screenshot.png)
+
+
+
