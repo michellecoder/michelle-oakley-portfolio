@@ -1,140 +1,181 @@
-    * {
-        box-sizing: border-box;
-    }
-    
-    header {
-        background-color: rgb(28, 28, 119);
-        color: rgb(48, 195, 197);
-        display: flex;
-        justify-content: space-between;
-        font-size: 36px;
-    }
-    
-    header a {
-        font-size: 12px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: rgb(48, 195, 197);
-    }
-    
-    header nav ul li {
-        display: inline-block;
-    }
-    
-    h1 {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 30px;
-        background-color: rgb(48, 195, 197);
-        color: rgb(28, 28, 119);
-    }
-    
-    nav {
-        justify-content: flex-end;
-        margin-right: 25px;
-        margin-top: 6px;
-    }
-    
-    .hero {
-        height: 300px;
-        width: 100%;
-        background-image: url("../assets/rose-sky.jpg");
-        background-size: cover;
-        background-position: center;
-        position: relative;
-    }
-    
-    h2 {
-        display: inline-block;
-        position: absolute;
-        font-size: 20px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        right: 50px;
-        bottom: 50px;
-        padding: 0px;
-        margin: 0px;
-        background-color: aqua;
-        color: rgb(28, 28, 119);
-    }
-    /* --------------------------*/
-    
-    .flex-column {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .flex-row {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: center;
-        margin: 20px 60px 25px 100px;
-    }
-    /* --------------------------*/
-    
-    img {
-        height: 300px;
-        width: 300px;
-        border: 2px solid rgb(48, 195, 197);
-    }
-    
-    .left {
-        display: block;
-        margin-right: 50px;
-    }
-    
-    h3 {
-        font-size: 2rem;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        border-right: solid rgb(58, 37, 194);
-        margin-right: 20px;
-        color: rgb(28, 28, 119);
-    }
-    
-    section {
-        display: flex;
-        flex-wrap: wrap;
-        flex-shrink: initial;
-    }
-    
-    .portfolio-box {
-        width: 800px;
-        min-height: 300px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    
-    .portfolio-item {
-        border: 2px solid rgb(48, 195, 197);
-        min-height: 100px;
-        flex-grow: 0;
-        flex-shrink: 0;
-        flex-basis: 49%;
-        margin-bottom: 10px;
-        background-image: url(./assets/rose-sky.jpg);
-        padding-top: 40px;
-        background-color: rgb(48, 195, 197);
-    }
-    
-    .portfolio-item:first-child {
-        flex-basis: 100%;
-        min-height: 300px;
-        padding-top: 25%;
-    }
-    
-    .portfolio-item a {
-        color: rgb(48, 195, 197);
-        font-size: 18px;
-        padding-top: 40px;
-    }
-    
-    .portfolio-item:hover {
-        opacity: 70%;
-    }
-    
-    nav li {
-        display: inline-block;
-        color: rgb(28, 28, 119);
-        margin-right: 48px;
-    }
+                                                        * {
+                                                        box-sizing: border-box;
+                                                    }
+                                                    
+                                                    header {
+                                                        background-color: rgb(28, 28, 119);
+                                                        color: rgb(48, 195, 197);
+                                                        display: flex;
+                                                        justify-content: space-between;
+                                                        font-size: 36px;
+                                                    }
+                                                    
+                                                    header a {
+                                                        font-size: 12px;
+                                                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                                        color: rgb(48, 195, 197);
+                                                    }
+                                                    
+                                                    header nav ul li {
+                                                        display: inline-block;
+                                                    }
+                                                    
+                                                    h1 {
+                                                        margin-top: 10px;
+                                                        margin-bottom: 10px;
+                                                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                                        font-size: 30px;
+                                                        background-color: rgb(48, 195, 197);
+                                                        color: rgb(28, 28, 119);
+                                                    }
+                                                    
+                                                    nav {
+                                                        justify-content: flex-end;
+                                                        margin-right: 25px;
+                                                        align-self: center;
+                                                        padding: 20px;
+                                                    }
+                                                    
+                                                    .hero {
+                                                        height: 300px;
+                                                        width: 100%;
+                                                        background-image: url("../assets/rose-sky.jpg");
+                                                        background-size: cover;
+                                                        background-position: center;
+                                                        position: relative;
+                                                    }
+                                                    
+                                                    h2 {
+                                                        display: inline-block;
+                                                        position: absolute;
+                                                        font-size: 20px;
+                                                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                                        right: 50px;
+                                                        bottom: 50px;
+                                                        padding: 0px;
+                                                        margin: 0px;
+                                                        background-color: aqua;
+                                                        color: rgb(28, 28, 119);
+                                                    }
+                                                    
+                                                    p {
+                                                        margin-bottom: 10px;
+                                                        margin-top: 10px;
+                                                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                                                        font-style: bold;
+                                                    }
+                                                    /* --------------------------*/
+                                                    
+                                                    .flex-column {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                    }
+                                                    
+                                                    .flex-row {
+                                                        display: flex;
+                                                        flex-direction: row;
+                                                        align-items: flex-start;
+                                                        /* justify-content: center; */
+                                                        margin: 20px 60px 25px 100px;
+                                                    }
+                                                    /* --------------------------*/
+                                                    
+                                                    img {
+                                                        height: 200px;
+                                                        width: 200px;
+                                                        border: 2px solid rgb(48, 195, 197);
+                                                    }
+                                                    
+                                                    .left {
+                                                        display: block;
+                                                        margin-right: 50px;
+                                                    }
+                                                    
+                                                    h3 {
+                                                        font-size: 2rem;
+                                                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                                        color: rgb(28, 28, 119);
+                                                        padding-right: 20px;
+                                                        min-width: 200px;
+                                                    }
+                                                    
+                                                    .flex-row>div,
+                                                    .flex-row>nav {
+                                                        padding-left: 20px;
+                                                        border-left: 1px solid rgb(28, 28, 119);
+                                                    }
+                                                    
+                                                    section {
+                                                        display: flex;
+                                                        flex-shrink: initial;
+                                                    }
+                                                    
+                                                    .portfolio-box {
+                                                        width: 800px;
+                                                        min-height: 300px;
+                                                        display: flex;
+                                                        flex-wrap: wrap;
+                                                        justify-content: space-between;
+                                                    }
+                                                    
+                                                    .portfolio-item {
+                                                        border: 2px solid rgb(48, 195, 197);
+                                                        min-height: 100px;
+                                                        flex-grow: 0;
+                                                        flex-shrink: 0;
+                                                        flex-basis: 49%;
+                                                        margin-bottom: 10px;
+                                                        background-image: url(./assets/rose-sky.jpg);
+                                                        padding-top: 40px;
+                                                        background-color: rgb(48, 195, 197);
+                                                    }
+                                                    
+                                                    .portfolio-item:first-child {
+                                                        flex-basis: 100%;
+                                                        min-height: 300px;
+                                                        padding-top: 25%;
+                                                    }
+                                                    
+                                                    .portfolio-item a {
+                                                        color: rgb(48, 195, 197);
+                                                        font-size: 18px;
+                                                        padding-top: 40px;
+                                                    }
+                                                    
+                                                    .portfolio-item:hover {
+                                                        opacity: 70%;
+                                                    }
+                                                    
+                                                    nav li {
+                                                        display: inline-block;
+                                                        color: rgb(28, 28, 119);
+                                                        margin-right: 48px;
+                                                    }
+                                                    
+                                                    @media screen and (max-width: 768px) {
+                                                        header {
+                                                            width: 100%;
+                                                            padding-left: 50px;
+                                                        }
+                                                        .flex-row {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            margin-left: 10px;
+                                                        }
+                                                        .flex-row nav {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            justify-content: flex-start;
+                                                            height: 200px;
+                                                            margin-bottom: 20px;
+                                                        }
+                                                        .flex-row>div,
+                                                        .flex-row>nav {
+                                                            padding-left: 0;
+                                                        }
+                                                        .portfolio-box {
+                                                            width: 100%;
+                                                        }
+                                                        .portfolio-item {
+                                                            flex-basis: 100%;
+                                                        }
