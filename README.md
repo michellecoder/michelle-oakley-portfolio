@@ -30,7 +30,7 @@ William Crownover and William Kuo: Thank you for helping me claw out solutions.
 
  https://michellecoder.github.io/michelle-oakley-portfolio/
 
-![alt text](Portfolio-screenshot.png)
+![alt text](assets/Portfolio-screenshot.png)
 
 
 
